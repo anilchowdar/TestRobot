@@ -7,7 +7,7 @@ other user names are invalid. Except that there are bugs. Can you spot them?
 #include <string.h>
 #define NR_USERS 2
 
-struct User {
+ruct User {
     const char* name;
     const char* password;
 };
