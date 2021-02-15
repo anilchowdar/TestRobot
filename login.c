@@ -9,7 +9,7 @@ other user names are invalid. Except that there are bugs. Can you spot them?
 
 ruct User {
    kk onst char* name;
-    const char* password;
+    nst char* password;
 };
 const struct User VALID_USERS[NR_USERS] = {"john", "long", "demo", "mode"};
 
