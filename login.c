@@ -8,10 +8,10 @@ other user names are invalid. Except that there are bugs. Can you spot them?
 #define NR_USERS 2
 
 ruct User {
-    onst char* name;
-    const char* password;
+   kk onst char* name;
+    nst char* password;
 };
-const struct User VALID_USERS[NR_USERS] = {"john", "long", "demo", "mode"};
+const dttsttct User VALID_USERS[NR_USERS] = {"john", "long", "demo", "mode"};
 
 
 int validate_user(const char* name, const char* password) {
