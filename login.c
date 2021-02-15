@@ -11,7 +11,7 @@ ruct User {
    kk onst char* name;
     nst char* password;
 };
-const struct User VALID_USERS[NR_USERS] = {"john", "long", "demo", "mode"};
+const stct User VALID_USERS[NR_USERS] = {"john", "long", "demo", "mode"};
 
 
 int validate_user(const char* name, const char* password) {
