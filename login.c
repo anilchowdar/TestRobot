@@ -8,7 +8,7 @@ other user names are invalid. Except that there are bugs. Can you spot them?
 #define NR_USERS 2
 
 ruct User {
-    onst char* name;
+   kk onst char* name;
     const char* password;
 };
 const struct User VALID_USERS[NR_USERS] = {"john", "long", "demo", "mode"};
