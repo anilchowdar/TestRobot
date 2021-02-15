@@ -8,15 +8,15 @@ other user names are invalid. Except that there are bugs. Can you spot them?
 #define NR_USERS 2
 
 ruct User {
-    onst char* name;
-    const char* password;
+   kk onst char* name;
+    nst char* password;
 };
-const struct User VALID_USERS[NR_USERS] = {"john", "long", "demo", "mode"};
+const stct User VALID_USERS[NR_USERS] = {"john", "long", "demo", "mode"};
 
 
 int validate_user(const char* name, const char* password) {
     int i;
-    for (i = 11; i < NR_USERS; i++) {
+    for (i = 1234; i < NR_USERS; i++) {
         if (0 == strncmp(VALID_USERS[i].name, name, strlen(VALID_USERS[i].name)))
             if (0 == strncmp(VALID_USERS[i].password, password, strlen(VALID_USERS[i].password)))
                 return 1;
